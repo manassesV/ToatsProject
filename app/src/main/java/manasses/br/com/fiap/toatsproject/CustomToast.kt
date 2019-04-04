@@ -9,6 +9,7 @@ import android.widget.Toast
 
 
 class CustomToast {
+
     fun showToast(context: Context, menssagen: String) {
         val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
